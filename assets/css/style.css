@@ -67,11 +67,10 @@ a {
 
 }
 #herotag {
-    padding-left: 35px;
-    padding-right: 20px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    margin-right: 500px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     background-color:brown;
     font-size: 72px;
     letter-spacing: 0.02em;
@@ -99,8 +98,12 @@ a {
 }
 /*New code*/
 .projectimg {
-    height: 200px;
-    width: 600px;
+    height: auto;
+    width: 10%;
+    background-color: #bbbea6;
+    border-image-width: 5rem;
+    border-color: black;
+    
 }
 #About {
     
@@ -112,7 +115,7 @@ a {
 }
 .AboutSect {
     display:flex;
-    flexwrap: flex;
+    flex-wrap: flex;
 
     color: rgb(68, 40, 2);
     margin-left: 50px;
@@ -137,7 +140,7 @@ a {
 }
 
 #Work {
-    
+
     border-left: 20px solid black;
     height: auto;
     width: 100%;
@@ -150,6 +153,8 @@ a {
     margin-left: 50px;
     margin-right: 50px;
     padding-bottom: 150px;
+
+    
 }
 .WorkSect h1 {
     padding-right: 20px;
@@ -157,7 +162,6 @@ a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #Contact {
-    
     border-left: 20px solid black;
     height: auto;
     width: 100%;
