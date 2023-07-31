@@ -7,11 +7,9 @@
 /*General background color*/
 body {
     background-color: #b6bbf3;
+    min-width: 486px;
 }
-section {
-    
-}
-    /*defines header layout*/
+/*defines header layout*/
 .header {
     padding: 50px;
     height: 200px;
@@ -23,18 +21,17 @@ section {
 
 .header h1 {
     display: inline-block;
-    font-size: 72px;
+    font-size: 5vmin;
     color: #d9dcd6;
 }
 
  
 /*defines navigation size and placement*/
 .header nav {
-    padding-top: 15px;
-    margin-right: 20px;
+    
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 50px;
+    font-size: 2vmin;
 }
 
 .header nav ul {
@@ -43,14 +40,39 @@ section {
 
 .header nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 50px;
+    background-color: black;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    padding: 3px;
+    padding-right: 8px;
+    padding-left: 8px;
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
-/*defines paragraph font size*/
+/*hover for nav*/
+
+.header nav {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.header nav ul li:hover,
+.header nav ul li:focus,
+.header nav ul li:active {
+    background-color: rgb(148, 143, 240);
+
+}
 
 /*Main photo*/
 .hero {
@@ -62,129 +84,165 @@ a {
     background-position: center;
 
 }
-@media screen and (min-width: 686px) {
-    body {
 
-}
 #herotag {
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     background-color:brown;
-    font-size: 72px;
-    letter-spacing: 0.02em;
+    transform: skew(-15deg);
+    font-size: 5vmin;
+    letter-spacing: 0.03em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:#d9dcd6;
     z-index: 10;
-    top:900px;
+    top: 39rem;
     right:0;
     position: absolute;
-    width: 1000px;
-}
-.heroWTag {
-    display: flex;
-    flexwrap: flex;
-}
-/*assigned to images in articles on left side*/
-.float-left {
-    float: left;
-    margin-right: 25px;
+    right: -20px;
+    width: 80vmin;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-/*New code*/
-.projectimg {
-    height: auto;
-    width: 10%;
-    background-color: #bbbea6;
-    border-image-width: 5rem;
-    border-color: black;
-    
-}
+
+
+/*About Me*/
 #About {
-    
-    border-left: 20px solid black;
+    border-left: 15px solid black;
     height: auto;
     width: 100%;
-    margin-left: 200px;
-       
+    margin-left: 106px;
+    max-width: 1200px;
+
+  
 }
 .AboutSect {
     display:flex;
     flex-wrap: flex;
-
     color: rgb(68, 40, 2);
-    margin-left: 50px;
-    margin-right: 0px;
-    padding-bottom: 150px;
-    justify-content: space-between;
-    
+    margin-left: 30px;
+    padding-bottom: 100px;  
 }
 .AboutSect h1 {
-    padding-right: 20px;
-    font-size: 48px;
+
+    font-size: 60px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .AboutSect p {
     padding-left: 50px;
+    font-size: 2.5vmin;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 100px;
+    text-align: left-justify;
+    margin-bottom: 2rem;   
+}
+/*Work Label*/
+
+.labels {
+    position: relative;
     font-size: 30px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-right: 120px;
-    text-align: left-justify;
+    left: 200px;
+    bottom: 100px;
+  }
 
-    
-}
-
-#Work {
-
-    border-left: 20px solid black;
+  /*Work*/
+  #Work {
+    border-left: 15px solid black;
     height: auto;
     width: 100%;
-    margin-left: 200px;
+    margin-left: 115px;
 }
+   
 .WorkSect {
     display:flex;
     flex-wrap: flex;
     color: rgb(68, 40, 2);
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-bottom: 150px;
-
-    
+    margin-left: 30px;
+    padding-bottom: 100px;  
 }
+
+
 .WorkSect h1 {
-    padding-right: 20px;
-    font-size: 48px;
+    font-size: 60px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+/*Images with Work - resized*/
+.resize img {
+    height: 400px;
+    width: 400px;
+    object-fit: fill;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 20%;
+}
+.projectimg1 {
+    background-color: #68c76f;
+    padding: 10px; 
+}
+
+#projectimg2 {
+    background-color: #89b6f0;
+}
+
+#projectimg3 {
+    background-color: #835be1;
+}
+#projectimg4 {
+    background-color: #f25107;
+   
+}
+
+#projectimg5 {
+    background-color: #e1c25b;
+}
+
 #Contact {
-    border-left: 20px solid black;
+    border-left: 15px solid black;
     height: auto;
     width: 100%;
-    margin-left: 200px;
+    margin-left: 53px;
+    
 }
+
 .ContactSect {
     display:flex;
     flex-wrap: flex;
-    color: rgb(68, 40, 2);
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 30px;
+    padding-bottom: 150px;
 }
 .ContactSect h1 {
-    padding-right: 20px;
-    font-size: 48px;
+    font-size: 60px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.ContactSect nav ul li a {
-    display: inline-block;
-    margin-left: 25px;
-    font-size: 48px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
     color: rgb(68, 40, 2);
-    
 }
+#Contact nav ul li a {
+    margin-left: 40px;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;  
+    color: rgb(68, 40, 2);
+}
+
+
+/*hover for work*/
+
+.resize a {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.resize a:hover,
+.resize a:focus,
+.resize a:active {
+    transform: scale(1.2);
+}
+/*hover for contact me*/
+
 
