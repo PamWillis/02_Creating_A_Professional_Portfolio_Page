@@ -97,6 +97,7 @@ a {
     display:flex;
     flex-wrap: flex;
     color: rgb(68, 40, 2);
+    min-width: 600px;
 }
 
 .Type h1 {
@@ -110,12 +111,13 @@ a {
     font-size: .9em;
     line-height: 1.2;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 #About {
     border-left: .8em solid black;
     height: auto;
     width: 100%;
-    margin-left: 2em;
+    margin-left: 6em;
 
 }
 /*Work Label*/
@@ -125,7 +127,7 @@ a {
     font-size: 30px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     left: 5em;
-    bottom: 2.9em;
+    bottom: 4.5em;
   }
 
   /*Work*/
@@ -133,23 +135,24 @@ a {
     border-left: .8em solid black;
     height: auto;
     width: 100%;
-    margin-left: 7.18em;
+    margin-left: 6.6em;
 }
    
 /*Images with Work - resized*/
 .resize img {
-    height: 25em;
-    width: 25em;
+    height: 15em;
+    width: 15em;
     object-fit: fill;
     margin-right: 1.9em;
     margin-left: 1.9em;
     margin-bottom: 1.9em;
     border-radius: 15%;
+    
 }
 
 .projectimg1 {
     background-color: #68c76f;
-    padding: .8em; 
+    padding: .8em;
 }
 
 #projectimg2 {
@@ -176,11 +179,11 @@ a {
     border-left: .8em solid black;
     height: auto;
     width: 100%;
-    margin-left: 3.4em; 
+    margin-left: 3em; 
 }
 
 #Contact nav ul li a {
-    margin-left: 2em;
+    margin-left: 1em;
     font-size: 2em;
     font-family:Verdana, Geneva, Tahoma, sans-serif;  
     color: rgb(68, 40, 2);
