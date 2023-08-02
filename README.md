@@ -39,8 +39,8 @@ Snippits of website shown below:
 
 mobile
 
-![MockUp](ReadMe_assets/Screen_Shot_5m.png)
+![MockUp](ReadMe_assets/images/Screen_Shot_5m.png)
 
-![MockUp](ReadMe_assets/Screen_Shot_6m.png)
+![MockUp](ReadMe_assets/images/Screen_Shot_6m.png)
 
-![MockUp](ReadMe_assets/Screen_Shot_7m.png)
+![MockUp](ReadMe_assets/images/Screen_Shot_7m.png)
