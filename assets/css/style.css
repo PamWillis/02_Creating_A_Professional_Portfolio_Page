@@ -118,7 +118,7 @@ a {
     
 }
 #About {
-    border-left: .8em solid black;
+    border-left: .8em solid rgb(68, 40, 2);
     height: auto;
     width: 100%;
     margin-left: 6em;
@@ -136,7 +136,7 @@ a {
 
   /*Work*/
 #Work {
-    border-left: .8em solid black;
+    border-left: .8em solid rgb(68, 40, 2);
     height: auto;
     width: 100%;
     margin-left: 6.6em;
@@ -180,10 +180,14 @@ a {
 }
 
 #Contact {
-    border-left: .8em solid black;
+    border-left: .8em solid rgb(68, 40, 2);
     height: auto;
     width: 100%;
     margin-left: 3em; 
+}
+
+#Contact nav ul li {
+    list-style: none;
 }
 
 #Contact nav ul li a {
@@ -192,7 +196,6 @@ a {
     font-family:Verdana, Geneva, Tahoma, sans-serif;  
     color: rgb(68, 40, 2);
 }
-
 
 /*hover for work*/
 
@@ -212,7 +215,9 @@ a {
 .resize a:active {
     transform: scale(1.2);
 }
+
 /*media querie*/
+
 @media only screen and (max-width: 375px) {
     
     .wrapper-main {
@@ -268,17 +273,49 @@ a {
     }
     
     .Type h1 {
-        font-size: 3.5em;
+        font-size: 2.5em;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
     .Type p {
-
         max-width: 250px;
          
     }
     #About {
-
+        border-left: .4em solid rgb(68, 40, 2);
         margin-left: 0em;
-    
     }
+    #Work {
+        border-left: .4em solid rgb(68, 40, 2);
+        margin-left: 0em;
+    }
+    #Contact {
+        border-left: .8em solid rgb(68, 40, 2);
+        margin-left: 0em;
+        font-size: 8px;
+    }
+}
+
+.projectimg1 {
+    background-color: #68c76f;
+    padding: .4em;
+}
+
+#projectimg2 {
+    background-color: #89b6f0;
+    padding: .4em; 
+}
+
+#projectimg3 {
+    background-color: #835be1;
+    padding: .4em; 
+}
+#projectimg4 {
+    background-color: #f25107;
+    padding: .4em; 
+   
+}
+
+#projectimg5 {
+    background-color: #e1c25b;
+    padding: .4em; 
 }
