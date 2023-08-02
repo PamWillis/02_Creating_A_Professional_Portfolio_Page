@@ -15,6 +15,8 @@ Snippet showing Media Queerie
 free clipart (license free) can be found on https://pixabay.com
 all project icons were taken from there.
 
+Top banner free from https://www.pexels.com/photo/a-simple-blue-background-15849321/
+
 Chicken photo is linked in coding.
 
 ## Usage
