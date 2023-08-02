@@ -260,12 +260,11 @@ a {
         width: 40%rem;
         padding: .5em;
         bottom: 8em;
- 
+    }
     .Type {
-        display:grid;
-        padding: 2em;
-        color: rgb(68, 40, 2);
-        max-width: 375px;
+        flex-direction: column;
+    
+
     }
     
     .Type h1 {
@@ -273,21 +272,13 @@ a {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
     .Type p {
-            display: grid;
-            flex-wrap: wrap;
-            width: 100%;
-            padding-left: .2em;
-            padding-bottom: .5em;
-            font-size: 2em;
-            line-height: 1.7em;
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+        max-width: 250px;
          
     }
     #About {
-        border-left: 0 solid black;
-        height: auto;
-        width: 100%;
-        margin-left: 6em;
+
+        margin-left: 0em;
     
     }
 }
