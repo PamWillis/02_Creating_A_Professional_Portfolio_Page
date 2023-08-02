@@ -7,7 +7,11 @@
 /*General background color*/
 body {
     background-color: #b6bbf3;
-    min-width: 100%;
+}
+.wrapper-main {
+    width: 1000;
+    padding: 0px;
+    margin: 0 auto;
 }
 /*defines header layout*/
 .header { 
@@ -23,6 +27,7 @@ body {
 
 .header h1 {
     display: inline-block;
+    align-content: center;
     font-size: 4rem;
     color: #d9dcd6;
 }
@@ -30,6 +35,7 @@ body {
  
 /*defines navigation size and placement*/
 .header nav {
+    align-content: center;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5em;
@@ -69,10 +75,8 @@ a {
 
 /*Main photo*/
 .hero {
-
     height: 50rem;
     width: 100%;
-    object-fit: fill;
     background-image: url(https://cdn.mos.cms.futurecdn.net/BX7vjSt8KMtcBHyisvcSPK-1920-80.jpg.webp);
     background-size: cover;
 
@@ -93,11 +97,11 @@ a {
 
 /*About Me*/
 .Type {
-    padding: 2em;
     display:flex;
-    flex-wrap: flex;
+    flex-wrap: none;
+    padding: 2em;
     color: rgb(68, 40, 2);
-    min-width: 600px;
+    min-width: 650px;
 }
 
 .Type h1 {
@@ -209,3 +213,81 @@ a {
     transform: scale(1.2);
 }
 /*media querie*/
+@media only screen and (max-width: 375px) {
+    
+    .wrapper-main {
+        padding-top: .55rem;
+        width: 95%;
+    }
+    .header {
+        padding:5px;
+        padding-bottom: 80px;
+    }
+    .header h1 {
+        padding: 4px;
+        margin-left: 4px;
+        font-size: 2rem;
+        color: #d9dcd6;
+    } 
+    .header nav {
+        align-content: left;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1em;
+    }
+    .header nav ul li {
+        display: block;
+        background-color: black;
+        border-width: .08em;
+        border-color: white;
+        border-style: solid;
+        padding: .5rem;
+    }
+    
+    .hero {
+        height: 20rem;
+        width: 100%;
+        background-image: url(https://cdn.mos.cms.futurecdn.net/BX7vjSt8KMtcBHyisvcSPK-1920-80.jpg.webp);
+        background-size: cover;
+    
+    }
+    
+    #herotag {
+        background-color:brown;
+        font-size: 1.5rem;
+        letter-spacing: 0.03em;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color:#d9dcd6;
+        width: 40%rem;
+        padding: .5em;
+        bottom: 8em;
+ 
+    .Type {
+        display:grid;
+        padding: 2em;
+        color: rgb(68, 40, 2);
+        max-width: 375px;
+    }
+    
+    .Type h1 {
+        font-size: 3.5em;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .Type p {
+            display: grid;
+            flex-wrap: wrap;
+            width: 100%;
+            padding-left: .2em;
+            padding-bottom: .5em;
+            font-size: 2em;
+            line-height: 1.7em;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+         
+    }
+    #About {
+        border-left: 0 solid black;
+        height: auto;
+        width: 100%;
+        margin-left: 6em;
+    
+    }
+}
