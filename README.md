@@ -23,7 +23,7 @@ Chicken photo is linked in coding.
 GitHub repository can be downloaded from:
  https://github.com/PamWillis/02_Creating_A_Professional_Portfolio_Page.git
 
-Deployed website: https://pamwillis.github.io/02_Creating_A_Professional_Portfolio_Page/
+Deployed website: ://pamwillis.github.io/02_Creating_A_Professionhttpsal_Portfolio_Page/
 
 
 view video of how the site can be used (please note, when clicking on different projects, they are opening in seperate windows, so they did not record): https://drive.google.com/drive/folders/19thpug2NYeDX2rnoowxApjRsXM7ftW0D?usp=sharing
