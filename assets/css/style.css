@@ -218,7 +218,7 @@ a {
 
 /*media querie*/
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 600px) {
     
     .wrapper-main {
         padding-top: .55rem;
