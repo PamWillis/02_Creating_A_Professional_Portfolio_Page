@@ -8,7 +8,7 @@
 
 
 Snippet showing Media Queerie
-![Snippet after](ReadMe_assets/images/SnippetMediaQueerie.png)
+![Snippet after](./ReadMe_assets/images/SnippetMediaQueerie.png)
 
 
 ## Credits
@@ -23,7 +23,7 @@ Chicken photo is linked in coding.
 GitHub repository can be downloaded from:
  https://github.com/PamWillis/02_Creating_A_Professional_Portfolio_Page.git
 
-Deployed website: ://pamwillis.github.io/02_Creating_A_Professionhttpsal_Portfolio_Page/
+Deployed website: https://pamwillis.github.io/02_Creating_A_Professional_Portfolio_Page/
 
 
 view video of how the site can be used (please note, when clicking on different projects, they are opening in seperate windows, so they did not record): https://drive.google.com/drive/folders/19thpug2NYeDX2rnoowxApjRsXM7ftW0D?usp=sharing
@@ -33,16 +33,16 @@ https://drive.google.com/file/d/1GE2b-M8UjikAbLxEdmgr6DCkV8bXX1sw/view
 
 Snippits of website shown below:
 
-![MockUp](ReadMe_Assets/images/Screen_Shot1.png)
+![MockUp](./ReadMe_assets/images/main_page.png)
 
-![MockUp](ReadMe_Assets/images/Screen_Shot2.png)
+![MockUp](./ReadMe_assets/images/projects_info.png)
 
-![MockUp](ReadMe_Assets/images/Screen_Shot3.png)
+
 
 mobile
 
-![MockUp](ReadMe_assets/images/Screen_Shot_5m.png)
+![MockUp](./ReadMe_assets/images/mobile1.png)
 
-![MockUp](ReadMe_assets/images/Screen_Shot_6m.png)
+![MockUp](./ReadMe_assets/images/mobile2.png)
 
-![MockUp](ReadMe_assets/images/Screen_Shot_7m.png)
+![MockUp](./ReadMe_assets/images/mobile3.png)
